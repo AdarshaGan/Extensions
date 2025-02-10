@@ -1,0 +1,11 @@
+{
+    "name": "Weather",
+    "version": "1.0",
+    "description": "An extension that shows the weather of a given lil town",
+    "manifest_version": 3,
+    "author": "Adash",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Weather"
+    }
+}

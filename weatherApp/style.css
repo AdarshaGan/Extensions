@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: 'Papyrus', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #6dd5ed, #2193b0);
+    color: white;
+    padding: 20px;
+    width: 300px;
+    max-width: 500px; /* Maximum width */
+    margin: 0 auto; /* Center the body */
+    border-radius: 10px;
+    box-sizing: border-box; /* Include padding and borders in width */
+}
+
+/* Container for search input and button */
+.searchDiv {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 10px; 
+    width: 100%; /* Ensure it takes the full width */
+    box-sizing: border-box;
+}
+
+/* Input Field */
+input {
+    width: 100%; /* Allow the input to be flexible and use available space */
+    max-width: 200px; /* Limit the input width */
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and borders in width */
+    height: 40px;
+}
+
+/* Button */
+button {
+    background-size: 70%;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-image: url('images/search.jpeg');
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+    box-sizing: border-box;
+    height: 35px;
+    width: 35px;
+}
+
+button:hover {
+    box-shadow: 0 0 15px 5px rgba(123, 206, 248, 0.679); 
+}
+
+h2 {
+    font-size: 26px;
+}
+
+/* Weather Display */
+#weather {
+    margin-top: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#weather img {
+    width: 50px;
+}
+
+#weather p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+/* Placeholder Styling */
+input::placeholder {
+    color: #ddd;
+    font-style: italic;
+}
